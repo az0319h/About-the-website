@@ -1,0 +1,35 @@
+:root{
+    /* 해당 폰트는 변경될 수 있다 */
+    font-family: "Roboto", sans-serif;
+    font-size : 15px !important; 
+    font-weight: 400;
+    font-style: normal;
+    --color : black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 , p {
+    margin: 0;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: var(--color) 
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* 이미지 아래 여백 제거 */
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0; /* 기본 패딩 제거 */
+}
+ul,ol,li {
+    list-style: none;
+}
