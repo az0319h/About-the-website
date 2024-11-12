@@ -1,7 +1,7 @@
 :root{
     /* 해당 폰트는 변경될 수 있다 */
-    font-family: "Roboto", sans-serif;
-    font-size : 15px !important; 
+    font-family: 폰트작성
+    font-size : 16px !important; 
     font-weight: 400;
     font-style: normal;
     --color : black;
@@ -33,4 +33,7 @@ button {
 ul,ol,li {
     list-style: none;
     margin : 0px; padding : 0px;
+}
+input {
+    outline : none; 
 }
