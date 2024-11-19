@@ -1,8 +1,8 @@
 :root{
     /* 해당 폰트는 변경될 수 있다 */
-    font-family: 
-    font-size : 
-    font-weight: 
+    font-family: ;
+    font-size : ;
+    font-weight: ;
     font-style: normal;
     --color : black;
 }
@@ -25,10 +25,10 @@ img {
     display: block; /* 이미지 아래 여백 제거 */
 }
 button {
-    border: 0px;
     background: transparent;
     cursor: pointer;
-    padding: 0; /* 기본 패딩 제거 *
+    padding: 0; 
+    border: 0px;
 }
 ul,ol,li {
     list-style: none;
