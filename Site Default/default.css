@@ -1,13 +1,12 @@
 :root{
-    /* 해당 폰트는 변경될 수 있다 */
+    /* 원하는 폰트 가져오기 */
     font-family: ;
     font-size : ;
     font-weight: ;
-    font-style: normal;
-    --color : black;
 }
 * {
-  box-sizing: border-box;
+    box-sizing : border-box;
+    color : black;
 }
 html, body {
     margin: 0;
@@ -19,7 +18,7 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 a {
     text-decoration: none;
-    color: var(--color) 
+    color : black;
 }
 img {
     max-width: 100%;
