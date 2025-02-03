@@ -1,12 +1,14 @@
-:root{
-    /* 원하는 폰트 가져오기 */
-    font-family: ;
-    font-size : ;
-    font-weight: ;
-}
+/* 문서내 모든 요소를 선택 */
 * {
     box-sizing : border-box;
     color : black;
+}
+/* 최상위 요소인 <html>을 선택한다 */
+:root{
+    /* 원하는 폰트 가져오기 */
+    font-family: ;
+    font-weight: ;
+    font-size : 16px;
 }
 html, body {
     margin: 0;
