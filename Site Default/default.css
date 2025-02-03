@@ -41,3 +41,25 @@ ul,ol,li {
 input {
     outline : none; 
 }
+
+/* 회사에서 사용하는 반응형 구간 px.ver */
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    
+}
+@media all and (min-width : 480px) and (max-width : 767px) {
+    
+}
+@media all and (min-width : 320px) and (max-width : 479px) {
+    
+}
+
+/* 회사에서 사용하는 반응형 구간 rem.ver */
+@media all and (min-width: 48rem) and (max-width: 64rem) {
+
+}
+@media all and (min-width: 30rem) and (max-width: 47rem) {
+
+}
+@media all and (min-width: 20rem) and (max-width: 29rem) {
+ 
+}
