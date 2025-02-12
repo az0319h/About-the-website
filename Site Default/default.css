@@ -24,7 +24,7 @@ a {
     color : black;
 }
 img {
-    max-width: 100%;
+    width : auto;
     height: auto;
     display: block; /* 이미지 아래 여백 제거 */
 }
@@ -40,6 +40,15 @@ ul,ol,li {
 }
 input {
     outline : none; 
+}
+
+/*
+기본적으로 font-family가 상속되지 않는 대표적인 요소들
+<input> <textarea> <select> <button> <optgroup> <option>
+*/
+/* 아래 내용들을 폰트를 상속 받을 수 있도록 만들어준다. */
+input, textarea, select, button, optgroup, option {
+    font-family : inherit;
 }
 
 /* 회사에서 사용하는 반응형 구간 px.ver */
