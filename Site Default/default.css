@@ -1,7 +1,6 @@
 /* 문서내 모든 요소를 선택 */
 * {
     box-sizing : border-box;
-    color : black;
 }
 /* 최상위 요소인 <html>을 선택한다 */
 :root{
@@ -9,6 +8,10 @@
     font-family: ;
     font-weight: ;
     font-size : 16px;
+
+    /* 색상 */
+    --white-color : white;
+    --black-color : black;
 }
 html, body {
     margin: 0px;
@@ -21,7 +24,6 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 a {
     text-decoration: none;
-    color : black;
 }
 img {
     width : auto;
