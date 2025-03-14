@@ -1,76 +1,99 @@
 /* 문서내 모든 요소를 선택 */
 * {
-    box-sizing : border-box;
+    box-sizing: border-box;
 }
+
 /* 최상위 요소인 <html>을 선택한다 */
-:root{
-    /* 원하는 폰트 가져오기 */
-    font-family: ;
-    font-weight: ;
-    font-size : 16px;
+:root {
+    font-family: 'Arial', sans-serif; /* 예시로 폰트 설정 */
+    font-weight: normal;
+    font-size: 16px;
 
     /* 색상 */
-    --white-color : white;
-    --black-color : black;
+    --white-color: white;
+    --black-color: black;
 }
+
 html, body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* 가독성 향상 */
+    color: var(--black-color); /* 기본 텍스트 색상 설정 */
 }
-h1, h2, h3, h4, h5, h6 , p {
-    font-size : 1rem;
-    margin: 0rem;
+
+/* 제목과 문단 스타일 */
+h1, h2, h3, h4, h5, h6, p {
+    font-size: 1rem;
+    margin: 0;
     font-weight: normal;
 }
+
+/* 링크 스타일 */
 a {
     text-decoration: none;
 }
+
+/* 이미지 스타일 */
 img {
-    width : auto;
+    width: auto;
     height: auto;
     display: block; /* 이미지 아래 여백 제거 */
 }
+
+/* 버튼 스타일 */
 button {
     background: transparent;
     cursor: pointer;
-    padding: 0; 
-    border: 0rem;
+    padding: 0;
+    border: 0;
 }
-ul,ol,li {
+
+/* 리스트 스타일 */
+ul, ol, li {
     list-style: none;
-    margin : 0rem; padding : 0rem;
+    margin: 0;
+    padding: 0;
 }
+
+/* 입력 요소 스타일 */
 input {
-    outline : none; 
+    outline: none;
 }
 
-/*
-기본적으로 font-family가 상속되지 않는 대표적인 요소들
-<input> <textarea> <select> <button> <optgroup> <option>
-*/
-/* 아래 내용들을 폰트를 상속 받을 수 있도록 만들어준다. */
+/* 폰트 상속 설정 */
 input, textarea, select, button, optgroup, option {
-    font-family : inherit;
+    font-family: inherit;
 }
 
-/* 회사에서 사용하는 반응형 구간 px.ver */
-@media all and (min-width : 768px) and (max-width : 1024px) {
-    
-}
-@media all and (min-width : 480px) and (max-width : 767px) {
-    
-}
-@media all and (min-width : 320px) and (max-width : 479px) {
-    
+/* 테이블 요소 기본 스타일 */
+table {
+    border-collapse: collapse; /* 테이블 셀 간 간격 제거 */
+    width: 100%;
 }
 
-/* 회사에서 사용하는 반응형 구간 rem.ver */
-@media all and (min-width: 48rem) and (max-width: 64rem) {
-
+th, td {
+    padding: 0; /* 테이블 셀 여백 제거 */
+    text-align: left;
 }
-@media all and (min-width: 30rem) and (max-width: 47rem) {
 
+/* fieldset 및 legend 스타일 */
+fieldset {
+    border: none; /* fieldset 테두리 제거 */
+    padding: 0;
+    margin: 0;
 }
-@media all and (min-width: 20rem) and (max-width: 29rem) {
- 
+
+legend {
+    padding: 0;
+    margin: 0;
+}
+
+/* 텍스트영역 스타일 */
+textarea {
+    resize: none; /* 크기 조절 방지 */
+}
+
+/* svg 스타일 */
+svg {
+    display: block; /* 불필요한 여백 제거 */
 }
