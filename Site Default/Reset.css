@@ -124,6 +124,12 @@ svg {
     display: block;
 }
 
+/* textarea */
+textarea {
+    background: transparent;
+    outline: none;
+}
+
 /* 스크롤바 제거 (선택사항) */
 /*
 ::-webkit-scrollbar {
